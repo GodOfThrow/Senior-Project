@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cop-recsys"
+version = "0.1.0"
+description = "Thanakit Senior Project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "torch",
+  "matplotlib",
+  "tqdm",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
